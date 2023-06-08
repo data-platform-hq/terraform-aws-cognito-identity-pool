@@ -11,4 +11,3 @@ output "id" {
   description = "An identity pool ID"
   value       = try(aws_cognito_identity_pool.this[0].id, null)
 }
-
